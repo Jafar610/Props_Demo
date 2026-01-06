@@ -1,20 +1,10 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import Card from './components/Card'
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import "./components/card.css";
+import Container from "./components/Container";
 
-
-createRoot(document.getElementById('root')).render(
+createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <Card 
-    color = "firstColor"
-    title = "Bussiness Card"
-    name = "Jafar Mohamed"
-    position = "Software Developer"
-    company = "Werabe IOT"
-    email = "Jaf@gmail.com"
-    />
-
-    
-
-  </StrictMode>,
-)
+    <Container />
+  </StrictMode>
+);
