@@ -35,7 +35,7 @@ class Container extends Component {
             email="Tofik@gmail.com"
           /> */}
           {Data.map((singleData, i) => {
-            let {title, color, name, position, company, email} = singleData;
+            let {title, color, name, position, company, email, phone} = singleData;
             return(
               <Card
               key={i}
@@ -45,6 +45,7 @@ class Container extends Component {
               position={position}
               company={company}
               email={email}
+              phone={phone}
              />
             );
             

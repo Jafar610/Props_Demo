@@ -1,7 +1,7 @@
 import { Component } from "react";
 export default class Card extends Component {
   render() {
-     let {color, title, name, position, company, email} = this.props;
+     let {color, title, name, position, company, email, phone} = this.props;
     return (
       <>
        
@@ -11,6 +11,7 @@ export default class Card extends Component {
           <p>Position: {position}</p>
           <p>Company: {company}</p>
           <p>Email: {email}</p>
+          {phone && <p>Phone: {phone}</p>}
         </div>
       </>
     );

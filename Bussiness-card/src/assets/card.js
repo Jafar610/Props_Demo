@@ -6,6 +6,7 @@ let userData = [
     position: "Software Developer",
     company: "Brothers INC",
     email: "Jaf@gmail.com",
+    phone:+251942419800,
   },
 
   {
